@@ -11,6 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Menu />
     <Nav />
+    <Main />
     <App />
   </React.StrictMode>,
   document.getElementById("root")
