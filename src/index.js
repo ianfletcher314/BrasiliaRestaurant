@@ -10,6 +10,7 @@ import Menu from "./components/Menu";
 ReactDOM.render(
   <React.StrictMode>
     <Menu />
+    <Nav />
     <App />
   </React.StrictMode>,
   document.getElementById("root")
