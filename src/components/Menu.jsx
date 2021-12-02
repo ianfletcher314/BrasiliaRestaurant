@@ -1,5 +1,5 @@
 function Menu() {
-    return <h1>welcome to brazil</h1>;
+    return <h1>menu div</h1>;
   }
 
 export default Menu
