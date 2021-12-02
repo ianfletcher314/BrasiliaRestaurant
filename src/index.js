@@ -3,10 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
-function Menu() {
-  return <h1>welcome to brazil</h1>;
-}
+import Nav from "./components/Nav";
+import Main from "./components/Main";
+import Menu from "./components/Menu";
 
 ReactDOM.render(
   <React.StrictMode>
