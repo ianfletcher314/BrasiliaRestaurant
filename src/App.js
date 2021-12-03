@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
+import Nav from "./components/Nav/Nav";
+import Main from "./components/Main/Main";
+import Menu from "./components/Menu/Menu";
 
 function App() {
   const [status, setStatus] = useState("open");
@@ -20,6 +23,9 @@ function App() {
       >
         Open Status
       </button>
+      <Nav />
+      <Menu />
+      <Main />
     </div>
   );
 }

@@ -3,15 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Nav from "./components/Nav/Nav";
-import Main from "./components/Main/Main";
-import Menu from "./components/Menu/Menu";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
-    <Menu />
-    <Main />
     <App />
   </React.StrictMode>,
   document.getElementById("root")
