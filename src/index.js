@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Nav from "./components/Nav";
+import Nav from "./components/Nav/Nav";
 import Main from "./components/Main";
 import Menu from "./components/Menu";
 
