@@ -8,7 +8,7 @@ function App() {
   const [status, setStatus] = useState("open");
   return (
     <div className="App">
-      <h1> status : {status}</h1>
+      <h1> App.js status : {status}</h1>
       <button
         onClick={() => {
           setStatus("closed");
