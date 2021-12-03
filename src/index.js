@@ -9,8 +9,8 @@ import Menu from "./components/Menu";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Menu />
     <Nav />
+    <Menu />
     <Main />
     <App />
   </React.StrictMode>,
