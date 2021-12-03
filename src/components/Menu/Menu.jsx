@@ -1,5 +1,9 @@
+import './style.css'
+
 function Menu() {
-    return <h1>menu div</h1>;
+    return <div className="menu">
+    <h1>menu div</h1>
+    </div>;
   }
 
 export default Menu

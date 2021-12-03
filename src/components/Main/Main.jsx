@@ -1,5 +1,7 @@
+import './style.css'
+
 function Main() {
-    return <div>
+    return <div className="main">
         <h1>This is the Main Section</h1>
         <pre>
             t 
