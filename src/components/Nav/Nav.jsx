@@ -1,3 +1,5 @@
+import './style.css'
+
 function Nav() {
     return <div className="nav">
         <h1>This is the nav section</h1>
