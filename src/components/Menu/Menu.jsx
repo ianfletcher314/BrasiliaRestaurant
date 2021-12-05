@@ -7,12 +7,12 @@ function Menu() {
     if (displayMenu){
       return <div className="menu row justify-content-center">
     <h1>menu div</h1>
-    <button onClick={()=>{setDisplayMenu(false)}}>hide menu</button>
+    <button className="btn btn-outline-primary col-3" onClick={()=>{setDisplayMenu(false)}}>hide menu</button>
     </div>;
     }
     else {
       return <div className="row justify-content-center" >
-         <button className="col-3" onClick={()=>{setDisplayMenu(true)}}>show menu</button>
+         <button className="col-3 btn btn-outline-primary" onClick={()=>{setDisplayMenu(true)}}>show menu</button>
       </div>
     }
     
