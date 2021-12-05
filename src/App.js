@@ -7,9 +7,10 @@ import Menu from "./components/Menu/Menu";
 function App() {
   const [status, setStatus] = useState("open");
   return (
-    <div className="App">
+    <div className="App row justify-content-center">
       <h1> App.js status : {status}</h1>
       <button
+        className="btn btn-outline-primary col-4"
         onClick={() => {
           setStatus("closed");
         }}
@@ -17,6 +18,7 @@ function App() {
         Close Status
       </button>
       <button
+        className="btn btn-outline-primary col-4"
         onClick={() => {
           setStatus("open");
         }}
