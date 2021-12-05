@@ -5,14 +5,14 @@ import './style.css'
 function Menu() {
     const [displayMenu,setDisplayMenu] = useState(false)
     if (displayMenu){
-      return <div className="menu">
+      return <div className="menu row justify-content-center">
     <h1>menu div</h1>
     <button onClick={()=>{setDisplayMenu(false)}}>hide menu</button>
     </div>;
     }
     else {
-      return <div>
-         <button onClick={()=>{setDisplayMenu(true)}}>show menu</button>
+      return <div className="row justify-content-center" >
+         <button className="col-3" onClick={()=>{setDisplayMenu(true)}}>show menu</button>
       </div>
     }
     
