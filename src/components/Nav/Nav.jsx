@@ -3,7 +3,7 @@ import './style.css'
 // ------------this is the function that returns this component's UI---------------
 function Nav() {
     return <div >
-      <ul className="nav justify-content-end">
+      <ul className="nav justify-content-end bg-dark">
           <li className="nav-item">
               <a href="#dinner" className="nav-link active btn">Dinner</a>
           </li>
