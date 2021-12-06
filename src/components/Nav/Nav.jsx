@@ -43,7 +43,7 @@ function Nav() {
               }}
               className="nav-link active btn"
             >
-              Show Menu
+              Hide Menu
             </button>
           </li>
         </ul>

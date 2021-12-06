@@ -5,10 +5,10 @@ import Main from "./components/Main/Main";
 import Menu from "./components/Menu/Menu";
 
 function App() {
-  const [status, setStatus] = useState("open");
+  // const [status, setStatus] = useState("open");
   return (
     <div className="App row justify-content-center">
-      <h1> App.js status : {status}</h1>
+      {/* <h1> App.js status : {status}</h1>
       <button
         className="btn btn-outline-primary col-4"
         onClick={() => {
@@ -24,7 +24,7 @@ function App() {
         }}
       >
         Open Status
-      </button>
+      </button> */}
       <Nav />
       <Menu />
       <Main />
