@@ -5,13 +5,13 @@ function Nav() {
     return <div >
       <ul className="nav justify-content-end">
           <li className="nav-item">
-              <a href="#dinner" className="nav-link active">Dinner</a>
+              <a href="#dinner" className="nav-link active btn">Dinner</a>
           </li>
           <li className="nav-item">
-              <a href="#lunch" className="nav-link active">Lunch</a>
+              <a href="#lunch" className="nav-link active btn">Lunch</a>
           </li>
           <li className="nav-item">
-            <a href="#Menu" className="nav-link active">Menu</a>
+            <a href="#Menu" className="nav-link active btn">Menu</a>
           </li>
       </ul>
     </div>
