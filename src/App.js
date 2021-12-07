@@ -12,7 +12,6 @@ function App() {
   if (status === true) {
     return (
       <div className="App row justify-content-center">
-        <h1> App.js status : {status}</h1>
         <Nav function={statusFunction} />
         <Main />
       </div>
@@ -20,7 +19,7 @@ function App() {
   } else {
     return (
       <>
-        <Nav function={statusFunction} />
+        <Nav function={statusFunction} status={status} />
         <Menu />
       </>
     );
