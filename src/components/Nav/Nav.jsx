@@ -28,7 +28,7 @@ function Nav(props) {
           <li className="nav-item">
             <button
               onClick={() => {
-                setNavStatus(false);
+                props.function();
               }}
               className="nav-link active btn"
             >
