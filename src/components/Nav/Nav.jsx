@@ -3,8 +3,9 @@ import React, { useState } from "react";
 import "./style.css";
 // ------------this is the function that returns this component's UI---------------
 
-function Nav() {
+function Nav(props) {
   const [navStatus, setNavStatus] = useState(true);
+  console.log(props.function);
   if (navStatus) {
     return (
       <div>
@@ -15,9 +16,14 @@ function Nav() {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#lunch" className="nav-link active btn">
-              Lunch
-            </a>
+            <button
+              onClick={() => {
+                props.function();
+              }}
+              className="nav-link active btn"
+            >
+              status
+            </button>
           </li>
           <li className="nav-item">
             <button
