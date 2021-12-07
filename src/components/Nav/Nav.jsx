@@ -4,9 +4,9 @@ import "./style.css";
 // ------------this is the function that returns this component's UI---------------
 
 function Nav(props) {
-  const [navStatus, setNavStatus] = useState(true);
-  console.log(props.function);
-  if (navStatus) {
+  // const [navStatus, setNavStatus] = useState(true);
+  console.log(props.btnStatus);
+  if (props.btnStatus) {
     return (
       <div>
         <ul className="nav justify-content-end bg-dark">
@@ -45,7 +45,7 @@ function Nav(props) {
           <li className="nav-item">
             <button
               onClick={() => {
-                setNavStatus(true);
+                props.function();
               }}
               className="nav-link active btn"
             >

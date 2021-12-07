@@ -9,17 +9,18 @@ function App() {
   const statusFunction = () => {
     setStatus(!status);
   };
+  var btnStatus = status;
   if (status === true) {
     return (
       <div className="App row justify-content-center">
-        <Nav function={statusFunction} />
+        <Nav function={statusFunction} btnStatus={btnStatus} />
         <Main />
       </div>
     );
   } else {
     return (
       <>
-        <Nav function={statusFunction} status={status} />
+        <Nav function={statusFunction} btnStatus={btnStatus} />
         <Menu />
       </>
     );
