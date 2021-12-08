@@ -42,7 +42,7 @@ function Nav(props) {
   } else {
     return (
       <div>
-        <ul className="nav justify-content-end bg-dark">
+        <ul className="nav justify-content-end">
           <li className="nav-item">
             <button
               onClick={() => {
