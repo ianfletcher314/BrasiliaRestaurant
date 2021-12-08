@@ -17,14 +17,9 @@ function Nav(props) {
             </a>
           </li>
           <li className="nav-item">
-            <button
-              onClick={() => {
-                props.function();
-              }}
-              className="nav-link active btn"
-            >
-              status
-            </button>
+            <a href="#contact" className="nav-link active btn">
+              contact
+            </a>
           </li>
           <li className="nav-item">
             <button
