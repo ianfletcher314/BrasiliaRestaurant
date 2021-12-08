@@ -36,7 +36,7 @@ function Nav(props) {
           </li>
           <li className="nav-item">
             <a href="#contact" className="nav-link active btn">
-              ABOUT US
+              ABOUT
             </a>
           </li>
         </ul>

@@ -1,4 +1,5 @@
 .main {
-  background-color: orange;
+  background: transparent;
   height: 100vh;
+  z-index: 3;
 }
