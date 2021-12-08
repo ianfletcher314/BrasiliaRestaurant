@@ -12,13 +12,18 @@ function Nav(props) {
       <div>
         <ul className="nav justify-content-end">
           <li className="nav-item">
-            <a href="#dinner" className="nav-link active btn">
-              Dinner
+            <a href="#order" className="nav-link active btn">
+              ORDERNOW
             </a>
           </li>
           <li className="nav-item">
             <a href="#contact" className="nav-link active btn">
-              contact
+              CONTACT
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#churrasco" className="nav-link active btn">
+              CHURRASCO
             </a>
           </li>
           <li className="nav-item">
@@ -28,7 +33,7 @@ function Nav(props) {
               }}
               className="nav-link active btn"
             >
-              Menu
+              MENU
             </button>
           </li>
         </ul>
