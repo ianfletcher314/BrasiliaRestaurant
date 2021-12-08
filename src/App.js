@@ -14,7 +14,7 @@ function App() {
     return (
       <div className="App row justify-content-center">
         <Nav function={statusFunction} btnStatus={btnStatus} />
-        <Main />
+        <Main function={statusFunction} btnStatus={btnStatus} />
       </div>
     );
   } else {

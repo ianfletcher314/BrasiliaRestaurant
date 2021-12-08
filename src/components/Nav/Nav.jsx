@@ -9,7 +9,7 @@ function Nav(props) {
   if (props.btnStatus) {
     return (
       <div>
-        <ul className="nav justify-content-end bg-dark">
+        <ul className="nav justify-content-end">
           <li className="nav-item">
             <a href="#dinner" className="nav-link active btn">
               Dinner
