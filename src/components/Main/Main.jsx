@@ -10,8 +10,8 @@ function Main(props) {
       <div className="main row justify-content-center">
         <Nav function={props.function} btnStatus={props.btnStatus} />
       </div>
-      <Contact />
       <Churrasco />
+      <Contact />
     </>
   );
 }
