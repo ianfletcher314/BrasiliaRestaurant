@@ -28,7 +28,7 @@ function Nav(props) {
               }}
               className="nav-link active btn"
             >
-              Show Menu
+              Menu
             </button>
           </li>
         </ul>
