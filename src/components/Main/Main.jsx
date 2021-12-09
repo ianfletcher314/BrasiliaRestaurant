@@ -13,9 +13,9 @@ function Main(props) {
         <Nav function={props.function} btnStatus={props.btnStatus} />
       </div>
       <Home />
+      <Contact />
       <Drinks />
       <Churrasco />
-      <Contact />
     </>
   );
 }
