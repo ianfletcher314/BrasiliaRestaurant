@@ -1,5 +1,7 @@
 #drinks {
   height: 100vh;
-  background-color: green;
   color: indigo;
+  background-image: url("../../images/cocktails.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
