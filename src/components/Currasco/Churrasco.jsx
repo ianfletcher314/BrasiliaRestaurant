@@ -3,10 +3,11 @@ import "./style.css";
 function Churrasco() {
   return (
     <>
-      <div id="churrasco"></div>
-      {/* <video muted autoPlay loop id="churrasco">
-        <source src={drone} type="video/mp4" />
-      </video> */}
+      <div id="churrasco" className="row align-items-center">
+        <div className="col-8 offset-md-2 textHolder">
+          THIS IS WHREE THE TEXT GOES
+        </div>
+      </div>
     </>
   );
 }

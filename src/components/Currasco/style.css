@@ -1,6 +1,10 @@
+.textHolder {
+  background: rgba(68, 68, 68, 0.6);
+  height: 60%;
+}
 #churrasco {
   background-color: grey;
-  color: yellow;
+  color: white;
   height: 100vh;
   background-image: url("../../images/Churrasco00003.jpg");
   background-repeat: no-repeat;
