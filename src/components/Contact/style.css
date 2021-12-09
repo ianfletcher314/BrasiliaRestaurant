@@ -1,17 +1,24 @@
 .contact {
   color: black;
-  background-color: lightgrey;
+  background-color: white;
   height: 55vh;
 }
 #phone {
-  background-color: orange;
+  background: rgba(8, 177, 65, 0.3);
   height: 90%;
   margin: auto 1%;
   transform: translateX(2%);
+  border: solid;
+  border-width: 0.2px;
+  border-color: grey;
 }
 #hours {
-  background-color: green;
+  background: rgba(94, 104, 98, 0.2);
+  height: 60%;
   height: 90%;
   margin: auto 1%;
   transform: translateX(5%);
+  border: solid;
+  border-width: 0.2px;
+  border-color: grey;
 }
