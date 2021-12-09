@@ -22,8 +22,18 @@ function Nav(props) {
             </button>
           </li>
           <li className="nav-item">
+            <a href="#drinks" className="nav-link active btn text-dark">
+              DRINKS
+            </a>
+          </li>
+          <li className="nav-item">
             <a href="#churrasco" className="nav-link active btn text-dark">
               CHURRASCO
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#contact" className="nav-link active btn text-dark ">
+              ABOUT
             </a>
           </li>
           <li className="nav-item">
@@ -32,11 +42,6 @@ function Nav(props) {
               className="nav-link active btn text-dark"
             >
               ORDER NOW
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="#contact" className="nav-link active btn text-dark">
-              ABOUT
             </a>
           </li>
         </ul>
