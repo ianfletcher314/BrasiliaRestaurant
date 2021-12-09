@@ -16,30 +16,30 @@ function Nav(props) {
               onClick={() => {
                 props.function();
               }}
-              className="nav-link active btn text-dark"
+              className="nav-link active btn text-white"
             >
               MENU
             </button>
           </li>
           <li className="nav-item">
-            <a href="#contact" className="nav-link active btn text-dark ">
+            <a href="#contact" className="nav-link active btn text-white ">
               ABOUT
             </a>
           </li>
           <li className="nav-item">
-            <a href="#drinks" className="nav-link active btn text-dark">
+            <a href="#drinks" className="nav-link active btn text-white">
               DRINKS
             </a>
           </li>
           <li className="nav-item">
-            <a href="#churrasco" className="nav-link active btn text-dark">
+            <a href="#churrasco" className="nav-link active btn text-white">
               CHURRASCO
             </a>
           </li>
           <li className="nav-item">
             <a
               href="https://www.grubhub.com/restaurant/brasilia-3212-s-grand-blvd-st-louis/2332692"
-              className="nav-link active btn text-dark"
+              className="nav-link active btn text-white"
             >
               ORDER NOW
             </a>
