@@ -2,4 +2,7 @@
   background-color: grey;
   color: yellow;
   height: 100vh;
+  background-image: url("../../images/Churrasco00003.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
