@@ -13,8 +13,11 @@ function Main(props) {
         <Nav function={props.function} btnStatus={props.btnStatus} />
       </div>
       <Home />
+      <div className="break"></div>
       <Contact />
+      <div className="break"></div>
       <Drinks />
+      <div className="break"></div>
       <Churrasco />
     </>
   );

@@ -2,3 +2,8 @@
   background: transparent;
   z-index: 3;
 }
+.break {
+  height: 1vh;
+  background-color: black;
+  width: 100%;
+}
