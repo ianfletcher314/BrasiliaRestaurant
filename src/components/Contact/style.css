@@ -3,3 +3,14 @@
   background-color: lightgrey;
   height: 45vh;
 }
+#phone {
+  background-color: orange;
+  height: 90%;
+  margin: auto 1%;
+}
+#hours {
+  background-color: green;
+  height: 90%;
+  margin: auto 1%;
+  transform: translateX(5%);
+}
