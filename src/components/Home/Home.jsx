@@ -6,7 +6,9 @@ function Home() {
       <video muted autoPlay loop id="home">
         <source src={drone} type="video/mp4" />
       </video>
-      <div className="col-12 textHolder2 logologo">BRASILIA</div>
+      <div className="col-12 textHolder2 logologo">
+        <div className="logo"> Brasilia</div>
+      </div>
     </div>
   );
 }

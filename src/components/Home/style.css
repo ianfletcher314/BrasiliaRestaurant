@@ -8,9 +8,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: ivory;
 }
 .video-container {
   position: relative;
+}
+.logo {
+  background-color: black;
+  padding: 1% 5% 1% 5%;
+  letter-spacing: 0.6rem;
 }
 #home {
   height: auto;
