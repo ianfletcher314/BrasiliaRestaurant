@@ -23,6 +23,7 @@ function Contact() {
             height="300"
             allowfullscreen=""
             loading="lazy"
+            id="googleMap"
           ></iframe>
         </div>
       </div>
