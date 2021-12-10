@@ -23,7 +23,7 @@ function Nav(props) {
           </li>
           <li className="nav-item">
             <a href="#contact" className="nav-link active btn text-white ">
-              ABOUT
+              LOCATION
             </a>
           </li>
           <li className="nav-item">
