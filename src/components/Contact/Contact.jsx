@@ -5,6 +5,8 @@ function Contact() {
     <div className="contact row" id="contact">
       <div id="phone" className="col-5">
         <div className="hours-holder">
+          <h2 className="logoSmall">Reserve a table now!</h2>
+          <h3 className="logoSmall">314-932-1034</h3>
           <ul>
             <li>Wednesday || Tursday: 5pm - 9pm </li>
             <li>Friday || Saturday: 5pm - 10pm </li>
@@ -15,7 +17,7 @@ function Contact() {
       </div>
       <div id="hours" className="col-6">
         <div className="map-holder">
-          <h3 className="logoSmall">3212 Grand Bulivard St. Louis, MO</h3>
+          <h3 className="logoSmall roof">3212 Grand Bulivard St. Louis, MO</h3>
           {/* <h4></h4> */}
           <iframe
             title="googleMap"

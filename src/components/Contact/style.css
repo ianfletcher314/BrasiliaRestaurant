@@ -17,6 +17,9 @@
   font-size: 38px;
   letter-spacing: 2px;
 }
+.roof {
+  margin-top: 2%;
+}
 #hours {
   /* background: rgba(219, 226, 221, 0.3); */
   height: 60%;
