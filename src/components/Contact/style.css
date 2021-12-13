@@ -12,6 +12,10 @@
   border-width: 0.2px;
   border-color: hsla(0, 0%, 100%, 0.575);
 }
+.logoSmall {
+  font-family: "Smooch", serif;
+  font-size: 38px;
+}
 #hours {
   /* background: rgba(219, 226, 221, 0.3); */
   height: 60%;
