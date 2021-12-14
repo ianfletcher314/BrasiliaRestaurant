@@ -10,3 +10,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.logoSmall {
+  font-family: "Smooch", serif;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
