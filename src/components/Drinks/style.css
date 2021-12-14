@@ -5,3 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.textHolder {
+  background: rgba(68, 68, 68, 0.6);
+  height: 60%;
+}
