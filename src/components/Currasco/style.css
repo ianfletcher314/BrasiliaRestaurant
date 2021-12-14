@@ -10,9 +10,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#youTubeDiv {
+  margin-top: 7%;
+}
 .churrascoSmall {
   font-family: "Bree Serif", serif;
   font-size: 24px;
   letter-spacing: 2px;
-  margin-top: 1%;
+  margin-top: 2%;
+}
+.vidText {
+  background-color: black;
+  font-family: "smooch", serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-left: 3%;
 }

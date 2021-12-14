@@ -12,6 +12,22 @@ function Churrasco() {
             grill with supports for spits or skewers. Come taste the tradition
             friday nights!
           </div>
+          <div className="col-6">
+            <iframe
+              id="youTubeDiv"
+              width="360"
+              height="215"
+              src="https://www.youtube.com/embed/dYy3jWR2OZY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div className="vidText">
+              <div>Friday Night</div>
+              <div>Churrasco Menu</div>
+            </div>
+          </div>
         </div>
       </div>
     </>
