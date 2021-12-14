@@ -1,6 +1,5 @@
 #drinks {
   height: 100vh;
-  color: indigo;
   background-image: url("../../images/cocktails.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,4 +7,11 @@
 .textHolder {
   background: rgba(68, 68, 68, 0.6);
   height: 60%;
+}
+.drinkText {
+  font-family: "Bree Serif", serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-top: 7%;
+  color: white;
 }
