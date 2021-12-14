@@ -27,4 +27,11 @@
   margin-top: 3%;
   margin-right: 3%;
   margin-left: 3%;
+  border-width: 5px;
+  border-color: aliceblue;
+  border-style: solid;
+  transition: transform 250ms;
+}
+.vidText:hover {
+  transform: translateY(-10%);
 }
