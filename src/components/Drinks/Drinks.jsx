@@ -1,5 +1,5 @@
 import "./style.css";
-function Drinks() {
+function Drinks(props) {
   return (
     <div id="drinks" className="row align-items-center">
       <div className="col-8 offset-md-2 textHolder row">
@@ -10,7 +10,12 @@ function Drinks() {
           started right!
         </div>
         <div className="col-md-5 offset-md-1 drinkLink row align-items-center">
-          <button className="btn drinkBtn text-light logoSmall">
+          <button
+            onClick={() => {
+              props.function();
+            }}
+            className="btn drinkBtn text-light logoSmall"
+          >
             Drink Menu
           </button>
         </div>
