@@ -1,6 +1,6 @@
 import "./style.css";
 // import drone from "../../images/drone.mp4";
-function Churrasco() {
+function Churrasco(props) {
   return (
     <>
       <div id="churrasco" className="row align-items-center">
@@ -23,7 +23,12 @@ function Churrasco() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-            <div className="vidText">
+            <div
+              className="vidText"
+              onClick={() => {
+                props.function();
+              }}
+            >
               <div>Friday Night</div>
               <div>Churrasco Menu</div>
             </div>
