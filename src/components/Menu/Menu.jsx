@@ -6,7 +6,7 @@ function Menu() {
   return (
     <div className="box row ">
       <img
-        class="container col-12 dinnerMenu"
+        class="col-8 offset-2  dinnerMenu"
         src={DinnerMenu}
         alt="Dinner Menu"
       />
