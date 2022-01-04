@@ -3,3 +3,9 @@
   width: 100vw;
   background-color: rgb(72, 124, 104);
 }
+.dinnerMenu {
+  height: 100vh;
+  background-image: url(../../images/DinnerMenu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
