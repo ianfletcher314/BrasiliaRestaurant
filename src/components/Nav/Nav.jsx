@@ -56,9 +56,9 @@ function Nav(props) {
               onClick={() => {
                 props.function();
               }}
-              className="nav-link active btn"
+              className="nav-link active btn text-white"
             >
-              Hide Menu
+              HIDE MENU
             </button>
           </li>
         </ul>
