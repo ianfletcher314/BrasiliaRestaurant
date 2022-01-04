@@ -16,9 +16,9 @@ function Main(props) {
       <div className="break"></div>
       <Contact />
       <div className="break"></div>
-      <Drinks />
+      <Drinks function={props.function} btnStatus={props.btnStatus} />
       <div className="break"></div>
-      <Churrasco />
+      <Churrasco function={props.function} btnStatus={props.btnStatus} />
     </>
   );
 }
