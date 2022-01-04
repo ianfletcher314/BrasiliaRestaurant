@@ -4,9 +4,9 @@ import DinnerMenu from "../../images/DinnerMenu.jpg";
 // ------------this is the function that returns this component's UI---------------
 function Menu() {
   return (
-    <div className="box">
+    <div className="box row ">
       <img
-        class="container center dinnerMenu"
+        class="container col-12 dinnerMenu"
         src={DinnerMenu}
         alt="Dinner Menu"
       />
