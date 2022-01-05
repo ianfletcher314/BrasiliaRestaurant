@@ -1,7 +1,4 @@
 TO DO:
--Create list of all nececary components
--Design components in HTML files and c/p them in 
--look at restaurant websites to get ideas of what the layout should be 
--grab photos from their current site and others from the internet 
--create a menu pdf and jpg that we can display on the menu page
--decide what goes in NAV section (menu, contact)
+-make website responsive
+-make drinks link to drinks 
+-make separate churasco menu
