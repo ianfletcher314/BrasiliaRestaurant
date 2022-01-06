@@ -1,4 +1,3 @@
 TO DO:
--make website responsive
--make drinks link to drinks 
--make separate churasco menu
+- make a new state that has a couple of differnt state options not just true and false.
+-ie this means have a state with home, menu, drinks, churrasco 

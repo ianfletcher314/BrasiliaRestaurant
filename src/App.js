@@ -5,6 +5,9 @@ import Main from "./components/Main/Main";
 import Menu from "./components/Menu/Menu";
 
 function App() {
+  const stateObject = {
+    status: "home",
+  };
   const [status, setStatus] = useState(true);
   const statusFunction = () => {
     setStatus(!status);
