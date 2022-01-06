@@ -3,6 +3,8 @@ import "./App.css";
 import Nav from "./components/Nav/Nav";
 import Main from "./components/Main/Main";
 import Menu from "./components/Menu/Menu";
+import DrinkMenu from "./components/DrinkMenu/DrinkMenu";
+import ChurrascoMenu from "./components/ChurrascoMenu/ChurrascoMenu";
 
 function App() {
   const stateObject = {
@@ -13,17 +15,31 @@ function App() {
     setStatus(!status);
   };
   var btnStatus = status;
-  if (status === true) {
+  if (status === "home") {
     return (
       <div className="App row justify-content-center">
         <Main function={statusFunction} btnStatus={btnStatus} />
       </div>
     );
-  } else {
+  } else if (status === "menu") {
     return (
       <>
         <Nav function={statusFunction} btnStatus={btnStatus} />
         <Menu />
+      </>
+    );
+  } else if (status === "drink") {
+    return (
+      <>
+        <Nav function={statusFunction} btnStatus={btnStatus} />
+        <DrinkMenu />
+      </>
+    );
+  } else if (status === "churrasco") {
+    return (
+      <>
+        <Nav function={statusFunction} btnStatus={btnStatus} />
+        <ChurrascoMenu />
       </>
     );
   }
