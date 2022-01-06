@@ -101,7 +101,7 @@ function Nav(props) {
           <li className="nav-item">
             <button
               onClick={() => {
-                props.function("home");
+                props.function("menu");
               }}
               className="nav-link active btn text-white"
             >
