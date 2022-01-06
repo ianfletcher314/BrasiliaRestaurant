@@ -58,7 +58,7 @@ function Nav(props) {
               }}
               className="nav-link active btn text-white"
             >
-              HIDE MENU
+              HOME
             </button>
           </li>
         </ul>
