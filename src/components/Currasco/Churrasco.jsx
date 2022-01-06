@@ -26,7 +26,7 @@ function Churrasco(props) {
             <div
               className="vidText"
               onClick={() => {
-                props.function();
+                props.function("churrasco");
               }}
             >
               <div>Friday Night</div>

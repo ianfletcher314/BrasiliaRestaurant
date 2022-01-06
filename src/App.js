@@ -10,9 +10,9 @@ function App() {
   const stateObject = {
     status: "home",
   };
-  const [status, setStatus] = useState(true);
-  const statusFunction = () => {
-    setStatus(!status);
+  const [status, setStatus] = useState(stateObject);
+  const statusFunction = (newState) => {
+    setStatus(newState);
   };
   var btnStatus = status;
   if (status === "home") {
