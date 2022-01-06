@@ -12,7 +12,7 @@ function App() {
   };
   const [status, setStatus] = useState(stateObject);
   const statusFunction = (newState) => {
-    setStatus(newState);
+    setStatus({ page: newState });
   };
   var btnStatus = status;
   if (status.page === "home") {
