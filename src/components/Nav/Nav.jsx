@@ -61,6 +61,26 @@ function Nav(props) {
               HOME
             </button>
           </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("drink");
+              }}
+              className="nav-link active btn text-white"
+            >
+              DRINKS
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("churrasco");
+              }}
+              className="nav-link active btn text-white"
+            >
+              CHURRASCO
+            </button>
+          </li>
         </ul>
       </div>
     );
@@ -78,6 +98,26 @@ function Nav(props) {
               HOME
             </button>
           </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("home");
+              }}
+              className="nav-link active btn text-white"
+            >
+              DINNER
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("churrasco");
+              }}
+              className="nav-link active btn text-white"
+            >
+              CHURRASCO
+            </button>
+          </li>
         </ul>
       </div>
     );
@@ -93,6 +133,26 @@ function Nav(props) {
               className="nav-link active btn text-white"
             >
               HOME
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("menu");
+              }}
+              className="nav-link active btn text-white"
+            >
+              DINNER
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("drink");
+              }}
+              className="nav-link active btn text-white"
+            >
+              DRINKS
             </button>
           </li>
         </ul>
