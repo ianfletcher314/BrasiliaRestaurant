@@ -14,7 +14,7 @@ function Nav(props) {
           <li className="nav-item">
             <button
               onClick={() => {
-                props.function();
+                props.function("menu");
               }}
               className="nav-link active btn text-white"
             >
@@ -54,7 +54,7 @@ function Nav(props) {
           <li className="nav-item">
             <button
               onClick={() => {
-                props.function();
+                props.function("home");
               }}
               className="nav-link active btn text-white"
             >
