@@ -8,34 +8,34 @@ import ChurrascoMenu from "./components/ChurrascoMenu/ChurrascoMenu";
 
 function App() {
   const stateObject = {
-    status: "home",
+    page: "home",
   };
   const [status, setStatus] = useState(stateObject);
   const statusFunction = (newState) => {
     setStatus(newState);
   };
   var btnStatus = status;
-  if (status === "home") {
+  if (status.page === "home") {
     return (
       <div className="App row justify-content-center">
         <Main function={statusFunction} btnStatus={btnStatus} />
       </div>
     );
-  } else if (status === "menu") {
+  } else if (status.page === "menu") {
     return (
       <>
         <Nav function={statusFunction} btnStatus={btnStatus} />
         <Menu />
       </>
     );
-  } else if (status === "drink") {
+  } else if (status.page === "drink") {
     return (
       <>
         <Nav function={statusFunction} btnStatus={btnStatus} />
         <DrinkMenu />
       </>
     );
-  } else if (status === "churrasco") {
+  } else if (status.page === "churrasco") {
     return (
       <>
         <Nav function={statusFunction} btnStatus={btnStatus} />
