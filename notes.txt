@@ -1,3 +1,4 @@
 TO DO:
-- make a new state that has a couple of differnt state options not just true and false.
--ie this means have a state with home, menu, drinks, churrasco 
+-new state has been created and it dynamically renders the home page 
+menu page drinks page and churrasco page which havent all been built out yet
+-now i need to make the nav section navigate to all of these places
