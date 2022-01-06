@@ -11,11 +11,6 @@ function Menu() {
         src={DinnerMenu}
         alt="Dinner Menu"
       />
-      <img
-        class="col-8 offset-2  menuHolder"
-        src={DrinkMenu}
-        alt="Dinner Menu"
-      />
     </div>
   );
 }
