@@ -7,7 +7,7 @@ import "./style.css";
 function Nav(props) {
   // const [navStatus, setNavStatus] = useState(true);
   console.log(props.btnStatus);
-  if (props.btnStatus) {
+  if (props.btnStatus.page === "home") {
     return (
       <div>
         <ul className="nav justify-content-end">
@@ -47,7 +47,41 @@ function Nav(props) {
         </ul>
       </div>
     );
-  } else {
+  } else if (props.btnStatus.page === "menu") {
+    return (
+      <div>
+        <ul className="nav justify-content-end">
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("home");
+              }}
+              className="nav-link active btn text-white"
+            >
+              HOME
+            </button>
+          </li>
+        </ul>
+      </div>
+    );
+  } else if (props.btnStatus.page === "drink") {
+    return (
+      <div>
+        <ul className="nav justify-content-end">
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("home");
+              }}
+              className="nav-link active btn text-white"
+            >
+              HOME
+            </button>
+          </li>
+        </ul>
+      </div>
+    );
+  } else if (props.btnStatus.page === "churrasco") {
     return (
       <div>
         <ul className="nav justify-content-end">
