@@ -1,5 +1,5 @@
 import "./style.css";
-import menuDrinks from "../../images/DrinkMenu.jpg";
+import menuDrinks from "../../images/ChurrascoMenu.jpg";
 
 function ChurrascoMenu() {
   return (
