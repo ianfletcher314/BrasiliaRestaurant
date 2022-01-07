@@ -12,7 +12,7 @@ function Drinks(props) {
         <div className="col-md-5 offset-md-1 drinkLink row align-items-center">
           <button
             onClick={() => {
-              props.function();
+              props.function("drink");
             }}
             className="btn drinkBtn text-light logoSmall"
           >

@@ -1,4 +1,4 @@
 TO DO:
--make website responsive
--make drinks link to drinks 
--make separate churasco menu
+-new state has been created and it dynamically renders the home page 
+menu page drinks page and churrasco page which havent all been built out yet
+-now i need to make the nav section navigate to all of these places
