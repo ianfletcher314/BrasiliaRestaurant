@@ -20,33 +20,8 @@
   letter-spacing: 2px;
   margin-top: 2%;
 }
-/* media queries for the text */
-@media (max-width: 1279px) {
-  .churrascoSmall {
-    font-family: "Bree Serif", serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-top: 2%;
-  }
-}
-@media (max-width: 869px) {
-  .churrascoSmall {
-    font-family: "Bree Serif", serif;
-    font-size: 15px;
-    letter-spacing: 2px;
-    margin-top: 2%;
-  }
-}
-@media (max-width: 599px) {
-  .churrascoSmall {
-    font-family: "Bree Serif", serif;
-    font-size: 12px;
-    letter-spacing: 2px;
-    margin-top: 2%;
-  }
-}
 
-.vidText {
+.vidButton {
   background-color: black;
   font-family: "smooch", serif;
   font-size: 40px;
@@ -61,4 +36,39 @@
 }
 .vidText:hover {
   transform: translateY(-10%);
+}
+/*---------------------- CSS for small laptops and tablets-------------------- */
+@media (max-width: 1279px) {
+  .churrascoSmall {
+    font-family: "Bree Serif", serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 2%;
+  }
+}
+/* ---------------------CSS for tablets and larger smart phones----------------- */
+@media (max-width: 869px) {
+  .churrascoSmall {
+    font-family: "Bree Serif", serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 2%;
+  }
+}
+/* ----------------------CSS for large to medium phones------------------ */
+@media (max-width: 599px) {
+  .churrascoSmall {
+    font-family: "Bree Serif", serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 2%;
+  }
+}
+@media (max-width: 399px) {
+  .churrascoSmall {
+    font-family: "Bree Serif", serif;
+    font-size: 8px;
+    letter-spacing: 2px;
+    margin-top: 2%;
+  }
 }

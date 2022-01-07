@@ -24,7 +24,7 @@ function Churrasco(props) {
               allowfullscreen
             ></iframe>
             <div
-              className="vidText"
+              className="vidButton"
               onClick={() => {
                 props.function("churrasco");
               }}
