@@ -53,12 +53,12 @@
   }
 }
 /* -----------------------------CSS for tablets and larger smart phones------------------------ */
-@media (max-width: 869px) {
+@media (max-width: 940px) {
   .churrascoSmall {
     font-family: "Bree Serif", serif;
     font-size: 15px;
     letter-spacing: 2px;
-    margin-top: 2%;
+    margin-top: 12%;
   }
   .vidButton {
     font-size: 25px;
@@ -69,20 +69,26 @@
   }
 }
 /* ------------------------------CSS for large to medium phones---------------------------- */
-@media (max-width: 599px) {
+@media (max-width: 769px) {
   .churrascoSmall {
     font-family: "Bree Serif", serif;
     font-size: 12px;
     letter-spacing: 2px;
-    margin-top: 2%;
+    margin-top: 12%;
   }
 }
 /* --------------------------------CSS for small to medium phones--------------------------- */
-@media (max-width: 399px) {
+@media (max-width: 559px) {
   .churrascoSmall {
-    font-family: "Bree Serif", serif;
-    font-size: 8px;
-    letter-spacing: 2px;
-    margin-top: 2%;
+    display: none;
+  }
+  .vidButton {
+    display: none;
+  }
+  #youTubeDiv {
+    display: none;
+  }
+  .textHolder {
+    display: none;
   }
 }
