@@ -13,7 +13,6 @@
 #youTubeDiv {
   margin-top: 7%;
 }
-/* ---------------------text for churrasco section ---------------*/
 .churrascoSmall {
   font-family: "Bree Serif", serif;
   font-size: 24px;
@@ -34,10 +33,10 @@
   border-style: solid;
   transition: transform 250ms;
 }
-.vidText:hover {
+.vidButton:hover {
   transform: translateY(-10%);
 }
-/*---------------------- CSS for small laptops and tablets-------------------- */
+/*-------------------------------- CSS for small laptops and tablets-------------------------- */
 @media (max-width: 1279px) {
   .churrascoSmall {
     font-family: "Bree Serif", serif;
@@ -45,8 +44,15 @@
     letter-spacing: 2px;
     margin-top: 2%;
   }
+  .vidButton {
+    font-size: 30px;
+  }
+  #youTubeDiv {
+    width: 300px;
+    height: 170px;
+  }
 }
-/* ---------------------CSS for tablets and larger smart phones----------------- */
+/* -----------------------------CSS for tablets and larger smart phones------------------------ */
 @media (max-width: 869px) {
   .churrascoSmall {
     font-family: "Bree Serif", serif;
@@ -54,8 +60,15 @@
     letter-spacing: 2px;
     margin-top: 2%;
   }
+  .vidButton {
+    font-size: 25px;
+    margin-top: 50%;
+  }
+  #youTubeDiv {
+    display: none;
+  }
 }
-/* ----------------------CSS for large to medium phones------------------ */
+/* ------------------------------CSS for large to medium phones---------------------------- */
 @media (max-width: 599px) {
   .churrascoSmall {
     font-family: "Bree Serif", serif;
@@ -64,6 +77,7 @@
     margin-top: 2%;
   }
 }
+/* --------------------------------CSS for small to medium phones--------------------------- */
 @media (max-width: 399px) {
   .churrascoSmall {
     font-family: "Bree Serif", serif;
