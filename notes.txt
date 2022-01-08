@@ -1,4 +1,5 @@
 TO DO:
--new state has been created and it dynamically renders the home page 
-menu page drinks page and churrasco page which havent all been built out yet
--now i need to make the nav section navigate to all of these places
+- now I need to make the 769px and lower screen sizes get a central column nav that send you 
+    directly to the menu sections or grubhub without the information section.
+    -this means making the #churrasco and #drinks divs display:none 
+    and hiding the nav section, replacing it with a column nav. this should prevent scrolability
