@@ -1,5 +1,4 @@
 import "./style.css";
-// import drone from "../../images/drone.mp4";
 function Churrasco(props) {
   return (
     <>
