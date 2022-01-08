@@ -1,10 +1,8 @@
-// ------------this is where any files this component needs are imported-----------
 import "./style.css";
-
-// ------------this is the function that returns this component's UI---------------
 
 function Nav(props) {
   console.log(props.btnStatus);
+  // -------------------------------- NAV SECTION ON HOME PAGE ------------------------------------------
   if (props.btnStatus.page === "home") {
     return (
       <div>
@@ -45,6 +43,7 @@ function Nav(props) {
         </ul>
       </div>
     );
+    // ----------------------------------- NAV SECTION ON MAIN MENU ----------------------------------------
   } else if (props.btnStatus.page === "menu") {
     return (
       <div>
@@ -82,6 +81,7 @@ function Nav(props) {
         </ul>
       </div>
     );
+    // ----------------------------------- NAV SECTION ON DRINK MENU ----------------------------------------
   } else if (props.btnStatus.page === "drink") {
     return (
       <div>
@@ -119,6 +119,7 @@ function Nav(props) {
         </ul>
       </div>
     );
+    // -------------------------------- NAV SECTION ON CHURRASCO MENU ----------------------------------------
   } else if (props.btnStatus.page === "churrasco") {
     return (
       <div>
