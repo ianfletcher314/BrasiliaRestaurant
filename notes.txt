@@ -3,3 +3,4 @@ TO DO:
     directly to the menu sections or grubhub without the information section.
     -this means making the #churrasco and #drinks divs display:none 
     and hiding the nav section, replacing it with a column nav. this should prevent scrolability
+- think about making the font size and size of the container divs % of the screen width?perhaps?
