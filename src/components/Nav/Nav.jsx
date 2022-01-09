@@ -17,8 +17,13 @@ function Nav(props) {
               MENU
             </button>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="navContact">
             <a href="#contact" className="nav-link active btn text-white ">
+              LOCATION
+            </a>
+          </li>
+          <li className="nav-item" id="navSmallContact">
+            <a href="#smallContact" className="nav-link active btn text-white ">
               LOCATION
             </a>
           </li>

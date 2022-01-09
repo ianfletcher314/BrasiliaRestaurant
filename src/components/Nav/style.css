@@ -4,4 +4,18 @@
   position: fixed;
 }
 @media (max-width: 550px) {
+  #navDrinks {
+    display: none;
+  }
+  #navChurrasco {
+    display: none;
+  }
+  #navContact {
+    display: none;
+  }
+}
+@media (min-width: 549px) {
+  #navSmallContact {
+    display: none;
+  }
 }
