@@ -37,7 +37,6 @@ function Contact() {
       </div>
       {/* --------------this is the css for the location area when on small screens---------- */}
       <div className="contact row" id="smallContact">
-        <div className="logologo"> Brasilia</div>
         <div id="phoneSmall" className="col-12">
           <div className="hours-holder">
             <h2 className="logoSmall">Reserve a table now!</h2>
