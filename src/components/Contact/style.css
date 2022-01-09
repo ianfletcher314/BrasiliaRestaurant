@@ -38,8 +38,17 @@ h3 > a {
   text-decoration: none;
 }
 @media (max-width: 1279px) {
+  #googleMap {
+    width: 60%;
+  }
 }
 @media (max-width: 940px) {
+  #googleMap {
+    height: 50%;
+  }
 }
 @media (max-width: 765px) {
+  #googleMap {
+    display: none;
+  }
 }
