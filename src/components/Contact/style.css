@@ -43,8 +43,6 @@ h3 > a {
     height: 60%;
   }
 }
-@media (max-width: 940px) {
-}
 @media (max-width: 765px) {
   #googleMap {
     display: none;
