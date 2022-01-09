@@ -10,7 +10,7 @@ function Contact() {
             <h3 className="logoSmall">
               <a href="314-932-1034">314-932-1034</a>
             </h3>
-            <ul>
+            <ul className="times">
               <li>Wednesday || Tursday: 5pm - 9pm </li>
               <li>Friday || Saturday: 5pm - 10pm </li>
               <li>Sunday Brunch Buffet: 11am - 2:30pm </li>
