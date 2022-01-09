@@ -28,3 +28,8 @@
 .drinkLink:hover {
   transform: translate(-5%, -10%);
 }
+@media (max-width: 765px) {
+  #drinks {
+    display: none;
+  }
+}
