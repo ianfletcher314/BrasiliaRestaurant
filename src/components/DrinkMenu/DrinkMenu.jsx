@@ -4,7 +4,7 @@ function DrinkMenu() {
   return (
     <div className="box row ">
       <img
-        class="col-8 offset-2  menuHolder"
+        class="col-8 offset-2  drinkMenuHolder"
         src={menuDrinks}
         alt="Dinner Menu"
       />

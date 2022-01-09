@@ -1,6 +1,11 @@
 .box {
   background-color: rgb(13, 26, 21);
 }
-.menuHolder {
+.drinkMenuHolder {
   margin-top: 3%;
+}
+@media (max-width: 1200px) {
+  .drinkMenuHolder {
+    margin-top: 10%;
+  }
 }
