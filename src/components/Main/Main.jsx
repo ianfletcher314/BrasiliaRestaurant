@@ -1,7 +1,7 @@
 // ------------this is where any files this component needs are imported-----------
 import Nav from "../Nav/Nav";
 import Contact from "../Contact/Contact";
-import Churrasco from "../Currasco/Churrasco";
+import Churrasco from "../Churrasco/Churrasco";
 import Home from "../Home/Home";
 import Drinks from "../Drinks/Drinks";
 import "./style.css";
