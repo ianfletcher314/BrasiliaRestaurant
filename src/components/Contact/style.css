@@ -20,7 +20,7 @@
 .roof {
   margin-top: 2%;
 }
-#hours {
+#location {
   /* background: rgba(219, 226, 221, 0.3); */
   height: 60%;
   height: 90%;
@@ -40,12 +40,10 @@ h3 > a {
 @media (max-width: 1279px) {
   #googleMap {
     width: 60%;
+    height: 60%;
   }
 }
 @media (max-width: 940px) {
-  #googleMap {
-    height: 50%;
-  }
 }
 @media (max-width: 765px) {
   #googleMap {

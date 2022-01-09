@@ -17,7 +17,7 @@ function Contact() {
           </ul>
         </div>
       </div>
-      <div id="hours" className="col-6">
+      <div id="location" className="col-6">
         <div className="map-holder">
           <h3 className="logoSmall roof">3212 Grand Bulivard St. Louis, MO</h3>
           <iframe
