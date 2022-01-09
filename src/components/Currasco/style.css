@@ -69,16 +69,7 @@
   }
 }
 /* ------------------------------CSS for large to medium phones---------------------------- */
-@media (max-width: 769px) {
-  .churrascoSmall {
-    font-family: "Bree Serif", serif;
-    font-size: 12px;
-    letter-spacing: 2px;
-    margin-top: 12%;
-  }
-}
-/* --------------------------------CSS for small to medium phones--------------------------- */
-@media (max-width: 559px) {
+@media (max-width: 765px) {
   .churrascoSmall {
     display: none;
   }
@@ -91,4 +82,10 @@
   .textHolder {
     display: none;
   }
+  #churrasco {
+    display: none;
+  }
+}
+/* --------------------------------CSS for small to medium phones--------------------------- */
+@media (max-width: 559px) {
 }
