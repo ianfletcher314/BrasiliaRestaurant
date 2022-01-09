@@ -3,3 +3,5 @@
   background: transparent;
   position: fixed;
 }
+@media (max-width: 550px) {
+}

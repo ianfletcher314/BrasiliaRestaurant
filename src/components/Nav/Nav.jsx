@@ -22,12 +22,12 @@ function Nav(props) {
               LOCATION
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="navDrinks">
             <a href="#drinks" className="nav-link active btn text-white">
               DRINKS
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="navChurrasco">
             <a href="#churrasco" className="nav-link active btn text-white">
               CHURRASCO
             </a>
