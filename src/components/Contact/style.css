@@ -49,4 +49,18 @@ h3 > a {
   #googleMap {
     display: none;
   }
+  #location {
+    display: none;
+  }
+  #phone {
+    display: none;
+  }
+  #contact {
+    display: none;
+  }
+}
+@media (min-width: 766px) {
+  #smallContact {
+    display: none;
+  }
 }
