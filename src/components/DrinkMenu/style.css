@@ -1,9 +1,11 @@
+/*----------------------------General CSS for DrinkMenu.jsx------------------------------ */
 .box {
   background-color: rgb(13, 26, 21);
 }
 .drinkMenuHolder {
   margin-top: 3%;
 }
+/*-------------------------------- CSS for tablets and phones -------------------------------- */
 @media (max-width: 1200px) {
   .drinkMenuHolder {
     margin-top: 10%;
