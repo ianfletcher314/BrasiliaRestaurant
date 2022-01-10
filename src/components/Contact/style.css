@@ -36,21 +36,21 @@ h3 > a {
   color: white;
   text-decoration: none;
 }
-/*-------------------------------- CSS for small laptops and tablets-------------------------- */
+/*-------------------------------- CSS for tablets and laptops-------------------------- */
 @media (max-width: 1279px) {
   #googleMap {
     width: 60%;
     height: 60%;
   }
 }
-/* -----------------------------CSS larger smart phones------------------------ */
+/* -----------------------------CSS for tablets and phones------------------------------ */
 
 @media (max-width: 815px) {
   .times {
     font-size: 85%;
   }
 }
-/* ------------------------------CSS for Smaller phones---------------------------- */
+/* ------------------------------CSS for Smaller phones---------------------------------- */
 
 @media (max-width: 765px) {
   #googleMap {
