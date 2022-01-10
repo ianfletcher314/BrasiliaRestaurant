@@ -3,7 +3,9 @@ import "./style.css";
 function Contact() {
   return (
     <>
+      {/* ------------------HTML for contact on large tablets and laptops------------------ */}
       <div className="contact row" id="contact">
+        {/* #phone contains hours and phone number */}
         <div id="phone" className="col-5">
           <div className="hours-holder">
             <h2 className="logoSmall">Reserve a table now!</h2>
@@ -18,6 +20,7 @@ function Contact() {
             </ul>
           </div>
         </div>
+        {/* #location contains the address and map */}
         <div id="location" className="col-6">
           <div className="map-holder">
             <h3 className="logoSmall roof">
@@ -35,8 +38,9 @@ function Contact() {
           </div>
         </div>
       </div>
-      {/* --------------this is the css for the location area when on small screens---------- */}
+      {/* ---------------this is the html for contact when on tablets and phones-------------- */}
       <div className="contact row" id="smallContact">
+        {/* #phoneSmall contains hours and phone number for small screens */}
         <div id="phoneSmall" className="col-12">
           <div className="hours-holder">
             <h2 className="logoSmall">Reserve a table now!</h2>
@@ -51,6 +55,7 @@ function Contact() {
             </ul>
           </div>
         </div>
+        {/* #locationSmall contains address and map for small screens */}
         <div id="locationSmall" className="col-12">
           <div className="map-holder">
             <h3 className="logoSmall roof">
