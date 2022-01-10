@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/brazilianrestaurant/static/css/main.4ca4c869.chunk.css",
-    "main.js": "/brazilianrestaurant/static/js/main.e949c73e.chunk.js",
-    "main.js.map": "/brazilianrestaurant/static/js/main.e949c73e.chunk.js.map",
-    "runtime-main.js": "/brazilianrestaurant/static/js/runtime-main.a33153c2.js",
-    "runtime-main.js.map": "/brazilianrestaurant/static/js/runtime-main.a33153c2.js.map",
+    "main.css": "/brazilianrestaurant/static/css/main.f59be310.chunk.css",
+    "main.js": "/brazilianrestaurant/static/js/main.7b482a6c.chunk.js",
+    "main.js.map": "/brazilianrestaurant/static/js/main.7b482a6c.chunk.js.map",
+    "runtime-main.js": "/brazilianrestaurant/static/js/runtime-main.f00468ab.js",
+    "runtime-main.js.map": "/brazilianrestaurant/static/js/runtime-main.f00468ab.js.map",
     "static/js/2.9c2e4ac1.chunk.js": "/brazilianrestaurant/static/js/2.9c2e4ac1.chunk.js",
     "static/js/2.9c2e4ac1.chunk.js.map": "/brazilianrestaurant/static/js/2.9c2e4ac1.chunk.js.map",
-    "static/js/3.e922c8a0.chunk.js": "/brazilianrestaurant/static/js/3.e922c8a0.chunk.js",
-    "static/js/3.e922c8a0.chunk.js.map": "/brazilianrestaurant/static/js/3.e922c8a0.chunk.js.map",
+    "static/js/3.39be4e07.chunk.js": "/brazilianrestaurant/static/js/3.39be4e07.chunk.js",
+    "static/js/3.39be4e07.chunk.js.map": "/brazilianrestaurant/static/js/3.39be4e07.chunk.js.map",
     "index.html": "/brazilianrestaurant/index.html",
-    "static/css/main.4ca4c869.chunk.css.map": "/brazilianrestaurant/static/css/main.4ca4c869.chunk.css.map",
+    "static/css/main.f59be310.chunk.css.map": "/brazilianrestaurant/static/css/main.f59be310.chunk.css.map",
     "static/js/2.9c2e4ac1.chunk.js.LICENSE.txt": "/brazilianrestaurant/static/js/2.9c2e4ac1.chunk.js.LICENSE.txt",
     "static/media/style.css": "/brazilianrestaurant/static/media/cocktails.dd185dcd.jpeg",
+    "static/media/ChurrascoMenu.0f921c70.jpg": "/brazilianrestaurant/static/media/ChurrascoMenu.0f921c70.jpg",
     "static/media/DinnerMenu.eadfd3e4.jpg": "/brazilianrestaurant/static/media/DinnerMenu.eadfd3e4.jpg",
     "static/media/DrinkMenu.ef0f29bd.jpg": "/brazilianrestaurant/static/media/DrinkMenu.ef0f29bd.jpg",
     "static/media/drone.ba373ff3.mp4": "/brazilianrestaurant/static/media/drone.ba373ff3.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.a33153c2.js",
+    "static/js/runtime-main.f00468ab.js",
     "static/js/2.9c2e4ac1.chunk.js",
-    "static/css/main.4ca4c869.chunk.css",
-    "static/js/main.e949c73e.chunk.js"
+    "static/css/main.f59be310.chunk.css",
+    "static/js/main.7b482a6c.chunk.js"
   ]
 }
