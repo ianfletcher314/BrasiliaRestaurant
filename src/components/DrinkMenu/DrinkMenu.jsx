@@ -2,9 +2,9 @@ import "./style.css";
 import menuDrinks from "../../images/DrinkMenu.jpg";
 function DrinkMenu() {
   return (
-    <div className="box row ">
+    <div className="box row">
       <img
-        class="col-8 offset-2  drinkMenuHolder"
+        class="col-8 offset-2 drinkMenuHolder"
         src={menuDrinks}
         alt="Dinner Menu"
       />
