@@ -3,9 +3,9 @@ import menuDrinks from "../../images/ChurrascoMenu.jpg";
 
 function ChurrascoMenu() {
   return (
-    <div className="box row ">
+    <div className="box row">
       <img
-        class="col-8 offset-2  churrascoMenuHolder"
+        class="col-8 offset-2 churrascoMenuHolder"
         src={menuDrinks}
         alt="Dinner Menu"
       />
