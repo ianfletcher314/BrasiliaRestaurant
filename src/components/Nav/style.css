@@ -1,8 +1,10 @@
+/*----------------------------General CSS for Nav.jsx------------------------------ */
 .nav {
   color: black;
   background: transparent;
   position: fixed;
 }
+/* ------------------------------CSS for tablets and  phones---------------------------------- */
 @media (max-width: 756px) {
   #navDrinks {
     display: none;
