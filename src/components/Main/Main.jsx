@@ -1,4 +1,4 @@
-// ----------this is where any files this component needs are imported----------------------
+// ----------this is where any files/components this component needs are imported----------------------
 import Nav from "../Nav/Nav";
 import Contact from "../Contact/Contact";
 import Churrasco from "../Churrasco/Churrasco";

@@ -1,9 +1,11 @@
+/*----------------------------General CSS for Menu.jsx------------------------------ */
 .box {
   background-color: rgb(13, 26, 21);
 }
 .mainMenuHolder {
   margin-top: 3%;
 }
+/*-------------------------------- CSS for tablets and phones -------------------------------- */
 @media (max-width: 1200px) {
   .mainMenuHolder {
     margin-top: 10%;

@@ -1,6 +1,7 @@
+// ------------this is where any files this component needs are imported-----------
 import "./style.css";
 import menuDrinks from "../../images/ChurrascoMenu.jpg";
-
+// ------------this is the function that returns this component's UI---------------
 function ChurrascoMenu() {
   return (
     <div className="box row">

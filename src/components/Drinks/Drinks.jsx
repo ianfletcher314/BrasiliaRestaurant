@@ -1,4 +1,6 @@
+// ------------this is where any files this component needs are imported-----------
 import "./style.css";
+// ------------this is the function that returns this component's UI---------------
 function Drinks(props) {
   return (
     // --------------------#drinks imports background image through CSS ------------------------

@@ -1,5 +1,7 @@
+// ------------this is where any files this component needs are imported-----------
 import "./style.css";
 import drone from "../../images/drone.mp4";
+// ------------this is the function that returns this component's UI---------------
 function Home() {
   return (
     <div className="video-container">
