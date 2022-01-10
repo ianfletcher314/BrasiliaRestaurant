@@ -68,7 +68,7 @@
     display: none;
   }
 }
-/* ------------------------------CSS for large to medium phones---------------------------- */
+/* ------------------------------CSS for Smaller phones---------------------------- */
 @media (max-width: 765px) {
   .churrascoSmall {
     display: none;
@@ -85,7 +85,4 @@
   #churrasco {
     display: none;
   }
-}
-/* --------------------------------CSS for small to medium phones--------------------------- */
-@media (max-width: 559px) {
 }
