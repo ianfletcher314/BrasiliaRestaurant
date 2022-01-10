@@ -1,9 +1,12 @@
+/*----------------------------General CSS for ChurrascoMenu.jsx------------------------------ */
 .box {
   background-color: rgb(13, 26, 21);
 }
 .churrascoMenuHolder {
   margin-top: 3%;
 }
+/*-------------------------------- CSS for tablets and phones -------------------------------- */
+
 @media (max-width: 1200px) {
   .churrascoMenuHolder {
     margin-top: 10%;
