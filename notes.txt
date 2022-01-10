@@ -1,7 +1,6 @@
 TO DO:
--Create list of all nececary components
--Design components in HTML files and c/p them in 
--look at restaurant websites to get ideas of what the layout should be 
--grab photos from their current site and others from the internet 
--create a menu pdf and jpg that we can display on the menu page
--decide what goes in NAV section (menu, contact)
+- now I need to make the 769px and lower screen sizes get a central column nav that send you 
+    directly to the menu sections or grubhub without the information section.
+    -this means making the #churrasco and #drinks divs display:none 
+    and hiding the nav section, replacing it with a column nav. this should prevent scrolability
+- think about making the font size and size of the container divs % of the screen width?perhaps?

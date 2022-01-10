@@ -1,10 +1,10 @@
+/*----------------------------General CSS for Contact.jsx------------------------------ */
 .contact {
   color: white;
   background-color: black;
   height: 55vh;
 }
 #phone {
-  /* background: rgba(219, 226, 221, 0.1); */
   height: 90%;
   margin: auto 1%;
   transform: translateX(2%);
@@ -20,8 +20,7 @@
 .roof {
   margin-top: 2%;
 }
-#hours {
-  /* background: rgba(219, 226, 221, 0.3); */
+#location {
   height: 60%;
   height: 90%;
   margin: auto 1%;
@@ -36,4 +35,39 @@
 h3 > a {
   color: white;
   text-decoration: none;
+}
+/*-------------------------------- CSS for tablets and laptops-------------------------- */
+@media (max-width: 1279px) {
+  #googleMap {
+    width: 60%;
+    height: 60%;
+  }
+}
+/* -----------------------------CSS for tablets and phones------------------------------ */
+
+@media (max-width: 815px) {
+  .times {
+    font-size: 85%;
+  }
+}
+/* ------------------------------CSS for Smaller phones---------------------------------- */
+
+@media (max-width: 765px) {
+  #googleMap {
+    display: none;
+  }
+  #location {
+    display: none;
+  }
+  #phone {
+    display: none;
+  }
+  #contact {
+    display: none;
+  }
+}
+@media (min-width: 766px) {
+  #smallContact {
+    display: none;
+  }
 }

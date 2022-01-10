@@ -1,3 +1,4 @@
+/*----------------------------General CSS for Drinks.jsx------------------------------ */
 #drinks {
   height: 100vh;
   background-image: url("../../images/cocktails.jpeg");
@@ -27,4 +28,20 @@
 }
 .drinkLink:hover {
   transform: translate(-5%, -10%);
+}
+/*-------------------------------- CSS for large tablets and laptops-------------------------- */
+@media (max-width: 1270px) {
+  .drinkText {
+    font-size: 19px;
+  }
+  .drinkLink {
+    margin-bottom: 40%;
+  }
+}
+/* ------------------------------CSS for small tablets phones---------------------------------- */
+
+@media (max-width: 765px) {
+  #drinks {
+    display: none;
+  }
 }

@@ -1,6 +1,9 @@
+// ------------this is where any files this component needs are imported-----------
 import "./style.css";
+// ------------this is the function that returns this component's UI---------------
 function Drinks(props) {
   return (
+    // --------------------#drinks imports background image through CSS ------------------------
     <div id="drinks" className="row align-items-center">
       <div className="col-8 offset-md-2 textHolder row">
         <div className="col-md-6 drinkText">
@@ -9,10 +12,11 @@ function Drinks(props) {
           sugar cane brandy called Cachaça. Make it a double to get the night
           started right!
         </div>
+        {/* drinkLink button links to DrinkMenu though props imported state change function */}
         <div className="col-md-5 offset-md-1 drinkLink row align-items-center">
           <button
             onClick={() => {
-              props.function();
+              props.function("drink");
             }}
             className="btn drinkBtn text-light logoSmall"
           >

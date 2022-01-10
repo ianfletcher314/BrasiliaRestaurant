@@ -1,3 +1,7 @@
+/*----------------------------General CSS for Main.jsx------------------------------ */
+html {
+  background-color: black;
+}
 .main {
   background: transparent;
   z-index: 3;

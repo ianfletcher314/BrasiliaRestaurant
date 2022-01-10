@@ -1,37 +1,39 @@
 // ------------this is where any files this component needs are imported-----------
-import React, { useState } from "react";
 import "./style.css";
-
 // ------------this is the function that returns this component's UI---------------
-
 function Nav(props) {
-  // const [navStatus, setNavStatus] = useState(true);
   console.log(props.btnStatus);
-  if (props.btnStatus) {
+  // -------------------------------- NAV SECTION ON HOME PAGE ------------------------------------------
+  if (props.btnStatus.page === "home") {
     return (
       <div>
         <ul className="nav justify-content-end">
           <li className="nav-item">
             <button
               onClick={() => {
-                props.function();
+                props.function("menu");
               }}
               className="nav-link active btn text-white"
             >
               MENU
             </button>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="navContact">
             <a href="#contact" className="nav-link active btn text-white ">
               LOCATION
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="navSmallContact">
+            <a href="#smallContact" className="nav-link active btn text-white ">
+              LOCATION
+            </a>
+          </li>
+          <li className="nav-item" id="navDrinks">
             <a href="#drinks" className="nav-link active btn text-white">
               DRINKS
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="navChurrasco">
             <a href="#churrasco" className="nav-link active btn text-white">
               CHURRASCO
             </a>
@@ -47,18 +49,115 @@ function Nav(props) {
         </ul>
       </div>
     );
-  } else {
+    // ----------------------------------- NAV SECTION ON MAIN MENU ----------------------------------------
+  } else if (props.btnStatus.page === "menu") {
     return (
       <div>
         <ul className="nav justify-content-end">
           <li className="nav-item">
             <button
               onClick={() => {
-                props.function();
+                props.function("home");
               }}
               className="nav-link active btn text-white"
             >
-              HIDE MENU
+              HOME
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("drink");
+              }}
+              className="nav-link active btn text-white"
+            >
+              DRINKS
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("churrasco");
+              }}
+              className="nav-link active btn text-white"
+            >
+              CHURRASCO
+            </button>
+          </li>
+        </ul>
+      </div>
+    );
+    // ----------------------------------- NAV SECTION ON DRINK MENU ----------------------------------------
+  } else if (props.btnStatus.page === "drink") {
+    return (
+      <div>
+        <ul className="nav justify-content-end">
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("home");
+              }}
+              className="nav-link active btn text-white"
+            >
+              HOME
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("menu");
+              }}
+              className="nav-link active btn text-white"
+            >
+              DINNER
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("churrasco");
+              }}
+              className="nav-link active btn text-white"
+            >
+              CHURRASCO
+            </button>
+          </li>
+        </ul>
+      </div>
+    );
+    // -------------------------------- NAV SECTION ON CHURRASCO MENU ----------------------------------------
+  } else if (props.btnStatus.page === "churrasco") {
+    return (
+      <div>
+        <ul className="nav justify-content-end">
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("home");
+              }}
+              className="nav-link active btn text-white"
+            >
+              HOME
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("menu");
+              }}
+              className="nav-link active btn text-white"
+            >
+              DINNER
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={() => {
+                props.function("drink");
+              }}
+              className="nav-link active btn text-white"
+            >
+              DRINKS
             </button>
           </li>
         </ul>

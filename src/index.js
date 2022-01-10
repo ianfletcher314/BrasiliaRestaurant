@@ -1,9 +1,10 @@
+// --------------------------this is where any files are imported---------------------------
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
+// -------------------this is react hook that renders all UI through app.js-------------------
 ReactDOM.render(
   <React.StrictMode>
     <App />

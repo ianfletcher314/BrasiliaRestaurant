@@ -1,17 +1,16 @@
 // ------------this is where any files this component needs are imported-----------
 import "./style.css";
-import DinnerMenu from "../../images/DinnerMenu.jpg";
+import menuDrinks from "../../images/ChurrascoMenu.jpg";
 // ------------this is the function that returns this component's UI---------------
-function Menu() {
+function ChurrascoMenu() {
   return (
-    <div className="box row ">
+    <div className="box row">
       <img
-        class="col-8 offset-2  mainMenuHolder"
-        src={DinnerMenu}
+        class="col-8 offset-2 churrascoMenuHolder"
+        src={menuDrinks}
         alt="Dinner Menu"
       />
     </div>
   );
 }
-
-export default Menu;
+export default ChurrascoMenu;
