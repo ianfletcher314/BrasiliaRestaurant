@@ -1,11 +1,11 @@
-// ------------this is where any files this component needs are imported-----------
+// ----------this is where any files this component needs are imported----------------------
 import Nav from "../Nav/Nav";
 import Contact from "../Contact/Contact";
 import Churrasco from "../Churrasco/Churrasco";
 import Home from "../Home/Home";
 import Drinks from "../Drinks/Drinks";
 import "./style.css";
-// ------------this is the function that returns this component's UI---------------
+// ----------this is the function that returns the components for App.js to import----------
 function Main(props) {
   return (
     <>
