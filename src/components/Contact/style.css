@@ -1,3 +1,4 @@
+/*----------------------------General CSS for Contact.jsx------------------------------ */
 .contact {
   color: white;
   background-color: black;
@@ -35,17 +36,22 @@ h3 > a {
   color: white;
   text-decoration: none;
 }
+/*-------------------------------- CSS for small laptops and tablets-------------------------- */
 @media (max-width: 1279px) {
   #googleMap {
     width: 60%;
     height: 60%;
   }
 }
+/* -----------------------------CSS larger smart phones------------------------ */
+
 @media (max-width: 815px) {
   .times {
     font-size: 85%;
   }
 }
+/* ------------------------------CSS for Smaller phones---------------------------- */
+
 @media (max-width: 765px) {
   #googleMap {
     display: none;
