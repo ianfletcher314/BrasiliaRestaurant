@@ -2,8 +2,10 @@ import "./style.css";
 function Churrasco(props) {
   return (
     <>
+      {/*----------------- #churrasco div has background photo added through CSS------------- */}
       <div id="churrasco" className="row align-items-center">
         <div className="col-8 offset-md-2 textHolder row">
+          {/* churrasco Small is the element that holds the text */}
           <div className=" col-6 text-justify churrascoSmall">
             In Brazil, churrasco is the term for a barbecue which originated in
             southern Brazil. It uses a variety of meats, pork, sausage and
@@ -12,6 +14,7 @@ function Churrasco(props) {
             friday nights!
           </div>
           <div className="col-6">
+            {/*---------- #youTubeDiv links to Churrasco youtube video--------------------*/}
             <iframe
               id="youTubeDiv"
               width="360"
@@ -22,6 +25,7 @@ function Churrasco(props) {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
+            {/* ------vidButton links to Churrasco Menu state through prop function------- */}
             <div
               className="vidButton"
               onClick={() => {
