@@ -10,7 +10,7 @@ Brasilia is a simple navigational website for a modern restauraunt in St. Louis 
 
 # Deployed
 
-Live Site: [Link to Our Deployed Version](https://happyhealth404.herokuapp.com/)
+Live Site: [Link to Our Deployed Version](https://ianfletcher314.github.io/brazilianrestaurant/)
 
 # Table of Contents
 
