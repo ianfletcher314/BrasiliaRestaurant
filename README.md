@@ -42,4 +42,4 @@ Ian Fletcher
 
 If you have any questions or problems... Please feel free to contact me at ianfletcher314@gmail.com
 
-Github: [Kyle Florez](https://github.com/SLUDGE-GIT) -- [Kyle Rather](https://github.com/krather7) -- [Spenser Logan](https://github.com/spenserlogan) -- [Samuel Roth](https://github.com/samuel6roth) -- [IanFletcher](https://github.com/ianfletcher314)
+Github: [IanFletcher](https://github.com/ianfletcher314)
